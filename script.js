@@ -4,7 +4,7 @@
 //http://api.weatherapi.com/v1/current.json?key=2dec41742fab4080bc9110009230105&q=${targetLocation}&aqi=no
 
 const apiKey = "2dec41742fab4080bc9110009230105";
-const apiUrl = "http://api.weatherapi.com/v1/current.json?key=";
+const apiUrl = "https://api.weatherapi.com/v1/current.json?key=";
 
 const searchBox = document.querySelector(".search input");
 const searchButton = document.querySelector(".search button");
